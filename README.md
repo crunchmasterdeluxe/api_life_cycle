@@ -5,6 +5,7 @@ An explanation of how an API and interacting with an API works
 Application Programming Interfaces (APIs) are the way that computers communicate with each other. Web applications, browsers, and servers use APIs to interact with each other. The API cycle consists of three main parts: the request, the receipt, and the response (*figure 1*).
 
 ![image](https://github.com/crunchmasterdeluxe/api_life_cycle/assets/83776204/dbdf2512-36fb-4f24-8856-50d930a49013)
+
 *Figure 1. The API request and response cycle*
 
 ## Request, Receipt, and Response
@@ -14,6 +15,7 @@ Application Programming Interfaces (APIs) are the way that computers communicate
 
 
 ![image](https://github.com/crunchmasterdeluxe/api_life_cycle/assets/83776204/279a0931-3b96-41e9-b92c-9427c977c5a3)
+
 *Figure 2. HTTP response codes and their meanings (courtesy of www.globalcool.org)*
 
 ## Example
