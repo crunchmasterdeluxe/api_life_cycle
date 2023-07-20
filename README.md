@@ -4,7 +4,7 @@ An explanation of how an API and interacting with an API works
 ## What is An API
 Application Programming Interfaces (APIs) are the way that computers communicate with each other. Web applications, browsers, and servers use APIs to interact with each other. The API cycle consists of three main parts: the request, the receipt, and the response (*figure 1*).
 
-![image](https://github.com/crunchmasterdeluxe/api_life_cycle/assets/83776204/dbdf2512-36fb-4f24-8856-50d930a49013)
+![image](https://github.com/crunchmasterdeluxe/api_life_cycle/assets/83776204/e169f819-58fb-43f8-8b2c-aa42dda3e3f0)
 
 *Figure 1. The API request and response cycle*
 
@@ -14,7 +14,8 @@ Application Programming Interfaces (APIs) are the way that computers communicate
 3.	**Response**: After checking the API request, the server will either accept or reject the request. This acceptance or rejection has two parts: the response code and the response content. The response code is also known as an HTTP response, and is coded as numbers from the 100s to 500s (*figure 2*). 100-199 are informational responses; 200-299 are successful responses, meaning the request was accepted; 300-399 are redirect responses; 400-499 are error responses, meaning the request contains a mistake and is rejected; 500-599 are server responses, meaning the server made a mistake in the receipt stage1. The content is any data the server returns along with the code. If the request is rejected, the content might be about why it was rejected. On the other hand, if the data is accepted, the response content might include any data that that the client is requesting to see. After returning the response, the request finishes processing and the cycle is complete.
 
 
-![image](https://github.com/crunchmasterdeluxe/api_life_cycle/assets/83776204/279a0931-3b96-41e9-b92c-9427c977c5a3)
+
+![image](https://github.com/crunchmasterdeluxe/api_life_cycle/assets/83776204/d6e76cee-d86b-4d9e-a05d-dfc02dda8deb)
 
 *Figure 2. HTTP response codes and their meanings (courtesy of www.globalcool.org)*
 
